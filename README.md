@@ -18,3 +18,6 @@ https://www.tutorialrepublic.com/php-tutorial/php-mysql-insert-query.php
 
 Create Tables
 https://www.w3schools.com/php/php_mysql_create_table.asp
+
+Select Data
+https://stackoverflow.com/questions/13656911/php-get-data-from-the-database
