@@ -17,7 +17,9 @@ $name = mysqli_real_escape_string($link, $_REQUEST['rname']);
 // Attempt insert query execution
 $sql = "INSERT INTO creds (username, password, email, name) VALUES ('$username', '$password', '$email', '$name')";
 if(mysqli_query($link, $sql)){
-    echo "Records added successfully.";
+	echo "Records added successfully.";
+	$back = '"./../index.html"';
+	echo "<button onclick='location.href = $back'>Go Back</button>";
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
