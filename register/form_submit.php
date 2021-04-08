@@ -19,6 +19,7 @@ $sql = "INSERT INTO creds (username, password, email, name) VALUES ('$username',
 if(mysqli_query($link, $sql)){
 	echo "Records added successfully.";
 	$back = '"./../index.html"';
+	echo "<p></p>";
 	echo "<button onclick='location.href = $back'>Go Back</button>";
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);

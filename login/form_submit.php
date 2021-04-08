@@ -39,6 +39,11 @@ mysqli_close($link);
 
 if($got_pass === $req_pass){
 	echo"Login successful!";
+	echo"<form action='../auth-user/almenu.php' id='myForm' class='alt' hidden method='post'>";
+	echo"<input name='pasname' value='$req_name' type='text'>";
+	echo"</form>";
+	echo"<script type='text/javascript'> document.getElementById('myForm').submit() </script>";
+	
 }else{
 	echo"Login failed";	
 }
