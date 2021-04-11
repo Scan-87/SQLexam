@@ -21,3 +21,6 @@ https://www.w3schools.com/php/php_mysql_create_table.asp
 
 Select Data
 https://stackoverflow.com/questions/13656911/php-get-data-from-the-database
+
+Replace one specific value
+https://www.w3schools.com/sql/sql_update.asp
