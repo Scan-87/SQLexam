@@ -1,18 +1,14 @@
 <?php
-$link = mysqli_connect("localhost", "sqladmin", "0000", "sqlapp");
-
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
-
-
 // Escape user inputs for security
-$req_name = mysqli_real_escape_string($link, $_REQUEST['pasname']);
+$req_name = $_SESSION['uname'];
 
- 
-mysqli_close($link);
-
-echo"Now you are signed as $req_name";
+session_start();
+if(isset($_SESSION['uname'])){
+	echo "<h2>Welcone to your user interface page</h2>";
+	echo "<h2>You are loged as ".$_SESSION['uname']."</h2>";
+	echo "<br><a href='../login/form_submit.php'><input type=button name=back value=back></a>";
+}else{
+	echo "<script>location.href='../login/login.html'</script>";
+}
 
 ?>
