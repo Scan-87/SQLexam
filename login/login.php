@@ -37,7 +37,7 @@ if (isset($_SESSION['uname'])){
 	if ($_SESSION['title'] === 'admin'){
 		echo "<script>location.href='/admin/admin.php'</script>";
 	}else{
-		echo "<script>location.href='/auth/user.php'</script>";
+		echo "<script>location.href='/auth/clearcart.php'</script>";
 	}
 	//echo "<h1>Welcome ".$_SESSION['uname']."</h1>";
         //echo "<a href='../auth/user.php'>Menu</a><br>";
