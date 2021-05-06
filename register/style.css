@@ -5,6 +5,7 @@
 
 h2 {
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 p {
@@ -71,11 +72,15 @@ main{
 .account {
 	display: flex;
 	flex: 1;
-	margin-left: 25rem;
+	margin-left: 10rem;
 	justify-content: space-between;
 	
 }
 
+.account p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
 .goods {
 	margin-left: 1rem;
