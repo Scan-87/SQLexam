@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>SQL application</title>
-		<link rel="stylesheet" href="/style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<link
                 href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
                 rel="stylesheet"
@@ -16,15 +16,19 @@
 			<section class="paper">
 				<div class="user">
 					<h2>Welcome to Dota 2 merchendise store!</h2>
-					<p>Please log in or register to continue</p>
 				</div>
 				<div class="panel">
 					<button onclick="location.href = './login/login.html'">Login!</button>
 					<button onclick="location.href = './register/register.html'">Register!</button>
-					<button onclick="location.href = './index.html'">Cart</button>
+					<button onclick="location.href = '/index.html'">Back</button>
 					<div class="account">
-						<p>Username<p>
-						<p>Guest<p>
+						<form action="login.php" class="alt" method="POST">
+                                                        <p>Username<p>
+                                                        <input name="username" placeholder="login" type="text">
+                                                        <p style="margin-top:1rem">Password<p>
+                                                        <input name="password" placeholder="password" type="password">
+                                                        <input class="alt" value="Log in" name=submit type="submit">
+                                                </form>
 					</div>
 				</div>
 				<div class="goods">
