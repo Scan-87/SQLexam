@@ -9,6 +9,8 @@ CREATE DATABASE sqlapp;
 CREATE USER 'sqladmin'@'localhost' IDENTIFIED BY '0000';
 GRANT ALL PRIVILEGES ON sqlapp . * TO 'sqladmin'@'localhost';
 
+Stepan's database: sqldota sqladmin 0000
+
 
 
 Links:
