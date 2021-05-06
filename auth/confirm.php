@@ -20,7 +20,7 @@ $allgoods = "";
 if(mysqli_query($link, $sql)){
         while($row = mysqli_fetch_array( $sql_get ))
         {
-		$allgoods = $allgoods.", ".$row['goods'];
+		$allgoods = $allgoods."".$row['goods'].", ";
 		$total = $total + $row['price'];
         }
 } else{

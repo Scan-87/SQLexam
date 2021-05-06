@@ -69,16 +69,16 @@ echo '</div>';
 echo '<div class="goods">';
 echo '<div class="row1">';
 echo '<div class="top1">';
-echo '<p>Gawr!</p>';
+echo '<p>Slark</p>';
 echo '<img src="/images/img1.png" style="width: 48%">';
 
 echo '<br><a href="add1.php"><input type=button value="Add to cart"></a>';
 //echo '<button onclick="location.href = 'add1.php'">Add to cart</button>';
-echo '<p></p>';
+echo '<p style="margin-top:3px">50$</p>';
 echo '</div>';
 echo '<div class="bot1">';
-echo '<p>Hot chicken</p>';
-echo '<img src="/images/img3.png" style="width: 48%">';
+echo '<p>Vengerful Spirit</p>';
+echo '<img src="/images/img2.png" style="width: 48%">';
 
 echo '<br><a href="add2.php"><input type=button value="Add to cart"></a>';
 //echo '<button onclick="location.href = 'add2.php'">Add to cart</button>';
@@ -88,16 +88,16 @@ echo '</div>';
 echo '</div>';
 echo '<div class="row2">';
 echo '<div class="top2">';
-echo '<p>Hot chicken</p>';
+echo '<p>Kunkka</p>';
 echo '<img src="/images/img3.png" style="width: 48%">';
 
 echo '<br><a href="add3.php"><input type=button value="Add to cart"></a>';
 //echo '<button onclick="location.href = 'add3.php'">Add to cart</button>';
-echo '<p style="margin-top:3px">55.5$</p>';
+echo '<p style="margin-top:3px">55$</p>';
 echo '</div>';
 echo '<div class="bot2">';
-echo '<p>Gawr!</p>';
-echo '<img src="/images/img1.png" style="width: 48%">';
+echo '<p>Lina</p>';
+echo '<img src="/images/img4.png" style="width: 48%">';
 
 echo '<br><a href="add4.php"><input type=button value="Add to cart"></a>';
 //echo '<button onclick="location.href = 'add4.php'">Add to cart</button>';
@@ -108,20 +108,20 @@ echo '';
 echo '</div>';
 echo '<div class="row3">';
 echo '<div class="top3">';
-echo '<p>Gawr!</p>';
-echo '<img src="/images/img1.png" style="width: 48%">';
+echo '<p>Tiny</p>';
+echo '<img src="/images/img5.png" style="width: 48%">';
 
 echo '<br><a href="add5.php"><input type=button value="Add to cart"></a>';
 //echo '<button onclick="location.href = 'add5.php'">Add to cart</button>';
-echo '<p></p>';
+echo '<p style="margin-top:3px">38$</p>';
 echo '</div>';
 echo '<div class="bot3">';
-echo '<p>Hot chicken</p>';
-echo '<img src="/images/img3.png" style="width: 48%">';
+echo '<p>Crystal Maiden</p>';
+echo '<img src="/images/img6.png" style="width: 48%">';
 
 echo '<br><a href="add6.php"><input type=button value="Add to cart"></a>';
 //echo '<button onclick="location.href = 'add6.php'">Add to cart</button>';
-echo '<p></p>';
+echo '<p style="margin-top:3px">52$</p>';
 echo '';
 echo '</div>';
 echo '';

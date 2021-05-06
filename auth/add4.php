@@ -7,8 +7,8 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 
-$goods = 'Gura';
-$price = 55;
+$goods = 'Lina';
+$price = 44;
 
 
 session_start();
